@@ -39,4 +39,16 @@ public class ChatController {
             return "error";
         }
     }
+
+    @RequestMapping("/login")
+    public String login(Model model){
+        try{
+            System.out.println("跳转到 login 的页面上");
+            return "Login";
+        }
+        catch (Exception e){
+            log.error("跳转到 login 的页面上发生异常，异常信息是："+e.getMessage());
+            return "error";
+        }
+    }
 }

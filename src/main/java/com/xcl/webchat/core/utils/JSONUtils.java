@@ -1,4 +1,4 @@
-package com.xcl.webchat.utils;
+package com.xcl.webchat.core.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;

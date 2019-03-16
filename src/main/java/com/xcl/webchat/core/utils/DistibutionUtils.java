@@ -1,6 +1,6 @@
-package com.xcl.webchat.utils;
+package com.xcl.webchat.core.utils;
 
-import com.xcl.webchat.model.OnlineUser;
+import com.xcl.webchat.core.model.OnlineUser;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

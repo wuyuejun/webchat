@@ -1,4 +1,4 @@
-package com.xcl.webchat.model;
+package com.xcl.webchat.core.model;
 
 import java.util.ArrayList;
 import java.util.List;

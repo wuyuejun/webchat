@@ -1,12 +1,12 @@
-package com.xcl.webchat.server;
+package com.xcl.webchat.core.server;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.xcl.webchat.model.Message;
-import com.xcl.webchat.model.OnlineUser;
-import com.xcl.webchat.model.RequestModel;
-import com.xcl.webchat.utils.DistibutionUtils;
-import com.xcl.webchat.utils.JSONUtils;
+import com.xcl.webchat.core.model.Message;
+import com.xcl.webchat.core.model.OnlineUser;
+import com.xcl.webchat.core.model.RequestModel;
+import com.xcl.webchat.core.utils.DistibutionUtils;
+import com.xcl.webchat.core.utils.JSONUtils;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;

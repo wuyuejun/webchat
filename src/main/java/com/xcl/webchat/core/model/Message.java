@@ -1,7 +1,7 @@
-package com.xcl.webchat.model;
+package com.xcl.webchat.core.model;
 
 import com.alibaba.fastjson.JSONObject;
-import com.xcl.webchat.utils.DateUtils;
+import com.xcl.webchat.core.utils.DateUtils;
 import java.io.IOException;
 import java.util.Map;
 import java.util.Map.Entry;

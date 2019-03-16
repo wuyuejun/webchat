@@ -1,4 +1,4 @@
-package com.xcl.webchat.conf;
+package com.xcl.webchat.core.conf;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;

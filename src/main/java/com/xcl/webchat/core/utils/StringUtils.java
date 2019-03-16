@@ -1,4 +1,4 @@
-package com.xcl.webchat.utils;
+package com.xcl.webchat.core.utils;
 
 import java.security.SecureRandom;
 import java.util.Base64;

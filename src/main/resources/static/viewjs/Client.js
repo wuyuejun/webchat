@@ -4,7 +4,7 @@ $(function(){
     //静态变量
     const COMMON = {
       URL : {
-        WEBSOCKETURL : "ws://localhost:8084/websocket?type=2&name="
+        WEBSOCKETURL : "ws://localhost:8084/webchat/websocket?type=2&name="
       },
       ELEMENT : {
         USERNAME : $("#username"),

@@ -1,4 +1,4 @@
-package com.xcl.webchat.model;
+package com.xcl.webchat.core.model;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -18,3 +18,4 @@ spring:
 mybatis:
   type-aliases-package: com.xcl.webchat.apply.**.entity
   mapper-locations: mapper/**/*.xml
+  config-location: config/sqlMapConfig.xml

@@ -9,12 +9,12 @@ spring:
       driverClassName: com.mysql.jdbc.Driver
       url : jdbc:mysql://192.168.52.14:3306/ssodata?useUnicode=true&characterEncoding=utf-8&useSSL=true
       username : root
-      password : XXXXXXXX
+      password : xcl!0615
     two:
       driverClassName: com.mysql.jdbc.Driver
       url : jdbc:mysql://192.168.52.14:3306/ssodata2?useUnicode=true&characterEncoding=utf-8&useSSL=true
       username : root
-      password : XXXXXXXX
+      password : xcl!0615
 
 
 

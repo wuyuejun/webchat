@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
@@ -34,6 +35,12 @@ public class DruidDataSourceConfig {
      */
     @Value("${mybatis.mapper-locations}")
     private String mapperLocations;
+
+    /**
+     * 加载全局的配置文件
+     */
+    @Value("${mybatis.config-location}")
+    private String configLocation;
     /**
      * 数据源1
      */
@@ -79,6 +86,7 @@ public class DruidDataSourceConfig {
         sqlSessionFactoryBean.setDataSource(dataSource);
         sqlSessionFactoryBean.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(mapperLocations));
         sqlSessionFactoryBean.setTypeAliasesPackage(typeAliasesPackage);
+        sqlSessionFactoryBean.setConfigLocation(new DefaultResourceLoader().getResource(configLocation));
         return sqlSessionFactoryBean.getObject();
     }
 
